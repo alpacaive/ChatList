@@ -6,30 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D3D859102F5F0EF2001B796A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D859072F5F0EF2001B796A /* Assets.xcassets */; };
+		D3D859122F5F0EF2001B796A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D8590B2F5F0EF2001B796A /* LaunchScreen.storyboard */; };
+		D3D859132F5F0EF2001B796A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D8590D2F5F0EF2001B796A /* Main.storyboard */; };
+		D3D859142F5F0EF2001B796A /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D859042F5F0EF2001B796A /* Chat.swift */; };
+		D3D859152F5F0EF2001B796A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D859062F5F0EF2001B796A /* AppDelegate.swift */; };
+		D3D859162F5F0EF2001B796A /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D859082F5F0EF2001B796A /* ChatListViewController.swift */; };
+		D3D859172F5F0EF2001B796A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D8590E2F5F0EF2001B796A /* SceneDelegate.swift */; };
+		D3D859192F5F0F3D001B796A /* ChatListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D859182F5F0F3D001B796A /* ChatListCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D3D858A32F5D9FE8001B796A /* ChatList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D859042F5F0EF2001B796A /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		D3D859062F5F0EF2001B796A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3D859072F5F0EF2001B796A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3D859082F5F0EF2001B796A /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		D3D859092F5F0EF2001B796A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D8590A2F5F0EF2001B796A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3D8590C2F5F0EF2001B796A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3D8590E2F5F0EF2001B796A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3D859182F5F0F3D001B796A /* ChatListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D3D858B52F5D9FE9001B796A /* Exceptions for "ChatList" folder in "ChatList" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = D3D858A22F5D9FE8001B796A /* ChatList */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		D3D858A52F5D9FE8001B796A /* ChatList */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				D3D858B52F5D9FE9001B796A /* Exceptions for "ChatList" folder in "ChatList" target */,
-			);
-			path = ChatList;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D3D858A02F5D9FE8001B796A /* Frameworks */ = {
@@ -45,7 +44,7 @@
 		D3D8589A2F5D9FE8001B796A = {
 			isa = PBXGroup;
 			children = (
-				D3D858A52F5D9FE8001B796A /* ChatList */,
+				D3D8590F2F5F0EF2001B796A /* ChatList */,
 				D3D858A42F5D9FE8001B796A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +55,30 @@
 				D3D858A32F5D9FE8001B796A /* ChatList.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D3D859052F5F0EF2001B796A /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+				D3D859042F5F0EF2001B796A /* Chat.swift */,
+			);
+			path = Resoures;
+			sourceTree = "<group>";
+		};
+		D3D8590F2F5F0EF2001B796A /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				D3D859062F5F0EF2001B796A /* AppDelegate.swift */,
+				D3D8590E2F5F0EF2001B796A /* SceneDelegate.swift */,
+				D3D8590D2F5F0EF2001B796A /* Main.storyboard */,
+				D3D859082F5F0EF2001B796A /* ChatListViewController.swift */,
+				D3D859182F5F0F3D001B796A /* ChatListCollectionViewCell.swift */,
+				D3D8590B2F5F0EF2001B796A /* LaunchScreen.storyboard */,
+				D3D859052F5F0EF2001B796A /* Resoures */,
+				D3D859092F5F0EF2001B796A /* Info.plist */,
+				D3D859072F5F0EF2001B796A /* Assets.xcassets */,
+			);
+			path = ChatList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +95,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				D3D858A52F5D9FE8001B796A /* ChatList */,
 			);
 			name = ChatList;
 			packageProductDependencies = (
@@ -122,6 +142,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D859102F5F0EF2001B796A /* Assets.xcassets in Resources */,
+				D3D859122F5F0EF2001B796A /* LaunchScreen.storyboard in Resources */,
+				D3D859132F5F0EF2001B796A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +155,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D859192F5F0F3D001B796A /* ChatListCollectionViewCell.swift in Sources */,
+				D3D859142F5F0EF2001B796A /* Chat.swift in Sources */,
+				D3D859152F5F0EF2001B796A /* AppDelegate.swift in Sources */,
+				D3D859162F5F0EF2001B796A /* ChatListViewController.swift in Sources */,
+				D3D859172F5F0EF2001B796A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3D8590B2F5F0EF2001B796A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D8590A2F5F0EF2001B796A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D3D8590D2F5F0EF2001B796A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D8590C2F5F0EF2001B796A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D3D858B72F5D9FE9001B796A /* Debug */ = {
