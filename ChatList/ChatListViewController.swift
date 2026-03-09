@@ -18,10 +18,7 @@ class ChatListViewController: UIViewController {
         
         collectionView.dataSource = self
         collectionView.delegate = self
-        
-        
     }
-    
 
 }
 
